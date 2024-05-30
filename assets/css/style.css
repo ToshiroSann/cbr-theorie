@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    font-family: "Poppins", sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00a0e3;
+    padding: 10px;
+    color: white;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#table h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#table h3 {
+    font-size: 20px;
+}
+
+#separator {
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    margin-left: 5px;
+}
+
+#dummy {
+    margin-left: 10px;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.icons {
+    cursor: pointer;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons:not(:last-child) {
+    margin-right: 50px;
+}
+
+.icons img {
+    width: 100%;
+}
+
+.icons span{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#info-buttons {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: white;
+    height: 50px;
+}
+
+#questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00a0e3;
+    width: 100%;
+    padding: 10px;
+}
+
+.button {
+    background-color: #4fc2f3;
+    width: 100%;
+    max-width: 125px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
